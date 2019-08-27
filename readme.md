@@ -76,8 +76,17 @@ i // insert mode
 //Easier commit system
 $ git commit -m 'Changed app.js'  //Comment to inc
 
+//////------GIT IGNORE-----/////
+$ touch .gitignore 
 
+files present in the git ignore file will not be added to the local repository.
+entire directorys can also be added to git.ignore
 
+/////------BRANCHES------//////
 
+create a branch 
+$ git branch <name>
+doesn't immediately move to the branch 
+git chechout <name>
 
 
