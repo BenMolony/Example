@@ -87,6 +87,28 @@ entire directorys can also be added to git.ignore
 create a branch 
 $ git branch <name>
 doesn't immediately move to the branch 
-git chechout <name>
+git checkout <name>
+
+//merge branches 
+while in the master
+$ git merge <name>
+
+///------REMOTE REPOSITORY ------///
+
+create new 
+name it 
+add description 
+
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+
+----KEY STEPS---
+$ git remote add origin https:// github.com/BenMolony/Example.git
+// adding the remote repository
+$ git push -u origin master
+//Login is required at this step
+
+$ git remote  //lists the current remote repositories
 
 
