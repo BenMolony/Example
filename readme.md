@@ -111,4 +111,11 @@ $ git push -u origin master
 
 $ git remote  //lists the current remote repositories
 
+$ clone or download a file
 
+//  copy the link in git hub 
+$ git clone <link> //pulls in the entire folder
+
+// When in the correct file system it is possible to use
+
+$ git pull
